@@ -1,5 +1,5 @@
 document.getElementById('convert-btn').addEventListener('click', () => {
-  var number = parseInt(document.getElementById('number').value, 10);
+  let number = parseInt(document.getElementById('number').value, 10);
   const output = document.getElementById('output');
   if (Number.isNaN(number) || number === '') {
     output.innerHTML = 'Please enter a valid number';
@@ -8,9 +8,9 @@ document.getElementById('convert-btn').addEventListener('click', () => {
   } else if (number >= 4000) {
     output.innerHTML = 'Please enter a number less than or equal to 3999';
   } else {
-    var romanNumeral = '';
-    var romanNumerals = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
-    var arabicNumbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
+    let romanNumeral = '';
+    let romanNumerals = ['M', 'CM', 'D', 'CD', 'C', 'XC', 'L', 'XL', 'X', 'IX', 'V', 'IV', 'I'];
+    let arabicNumbers = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1];
     for (let i = 0; i < romanNumerals.length; i += 1) {
       while (number >= arabicNumbers[i]) {
         romanNumeral += romanNumerals[i];
