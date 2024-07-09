@@ -3,13 +3,13 @@
 
 ## Add functionality to check if an input is a palindrome, with input validation and dynamic result display.📝
 
-> This project is a web application built with HTML, CSS, and JavaScript that checks if a given input is a palindrome by removing non-alphanumeric characters, normalizing the case, and dynamically displaying the result, making it useful for education, coding practice, and fun.
+> This project is a web application built with HTML, CSS, and JavaScript that change the number you enter to from Arabic Numerals to RomanNumeral.
 
 
 
 ## Demo 📸
 [live Demo] ( )
-![Screenshot](1.png)
+![Screenshot](2.png)
 
 ## Technologies Used 🛠️
 
@@ -26,7 +26,7 @@ git clone https://github.com/Breshnahamidi20/roman-numeral-converted.git
 
 ```bash
 2: Navigate to the Project Directory:
-cd Palindrome_Checker
+cd roman-numeral
 ```
 
 ```bash
@@ -36,13 +36,13 @@ cd Palindrome_Checker
 ## Usage 🎯
 
 ```bash
-To use the project, open index.html in your browser, ensure style.css and script.js are in the same directory, enter text in the input field, click "Check", and view the palindrome result.
+To use the project, open index.html in your browser, ensure style.css and script.js are in the same directory, enter text in the input field, click "Check", and view the  Roman Numeral.
 ```
 
 ## Features ⭐
 
 - Real-time Input Validation: Alerts users if no input is provided.
-- Dynamic Result Display: Instantly shows whether the input is a palindrome or not, providing immediate feedback.
+- Dynamic Result Display: Instantly change  Arabic Numerals to Eoman Numerals, providing immediate feedback.
 - User-Friendly Interface: Clean and simple design for easy interaction.
 
 ## Author 👩‍💻
