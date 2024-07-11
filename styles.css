@@ -23,81 +23,75 @@ html {
 
 .container {
   text-align: center;
-  background: rgba(228, 198, 65, 0.5); /* Semi-transparent background */
+  background:rgba(228, 198, 65, 0.5); /* Semi-transparent background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(204, 8, 8, 0.1);
   backdrop-filter: blur(5px); /* Apply blur effect */
   position: absolute;
-  display: flex;
-  width: 400px;
-  height: 230px;
+  display:flex;
+  width:400px;
+  height:200px ;
 }
 
 #number {
   padding: 8px;
   border-radius: 5px;
-  left: 15%;
-  top: 50%;
-  width: 300px;
-  height: 20px;
+  left:15%;
+  top:50%;
+  width:300px;
+  height:20px ;
   position: absolute;
-  font-size: medium;
+  font-size:medium;
 }
 
 #convert-btn {
   padding: 5px;
   border-radius: 5px;
-  left: 15%;
-  top: 70%;
-  width: 318px;
-  height: 40px;
+  left:15%;
+  top:70%;
+  width:318px;
+  height:40px ;
   position: absolute;
+  backdrop-filter: rgb(255, 197, 6) ;
   background-color: rgb(255, 217, 4);
   font-size: large;
 }
 
-#output {
-  padding-top: 20px;
-  border-radius: 5px;
-  left: 15%;
-  top: 80%;
-  width: 300px;
-  height: 20px;
-  position: absolute;
-  font-size: x-large;
-  font-weight: 100;
-}
-
 @media (max-width: 400px) {
   .container {
-    width: 300px;
-    height: 300px;
+    width:200px;
+    height:300px;
   }
 
   #number {
-    width: 250px;
-    height: 20px;
+    width:150px;
+    height:30px;
   }
   #convert-btn {
-    width: 250px;
-    height: 40px;
+    width:150px;
+    height:40px;
+    top:210px;
+  }
+  h {
+    font-size:12px;
+    
   }
 }
 
 @media (max-width: 200px) {
   .container {
-    width: 200px;
-    height: 300px;
+    width:130px;
+    height:300px;
   }
 
   #number {
-    width: 180px;
-    height: 20px;
+    width:90px;
+    height:40px;
   }
   #convert-btn {
-    width: 180px;
-    height: 40px;
+    width:90px;
+    height:40px;
   }
 }
  
