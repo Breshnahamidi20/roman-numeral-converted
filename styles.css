@@ -1,0 +1,110 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(R.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+  background: rgba(228, 198, 65, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(204, 8, 8, 0.1);
+  backdrop-filter: blur(5px); /* Apply blur effect */
+  position: absolute;
+  display: flex;
+  width: 400px;
+  height: 220px;
+}
+
+#number {
+  padding: 8px;
+  border-radius: 5px;
+  left: 15%;
+  top: 40%;
+  width: 300px;
+  height: 20px;
+  position: absolute;
+  font-size: medium;
+}
+
+#convert-btn {
+  padding: 5px;
+  border-radius: 5px;
+  left: 15%;
+  top: 60%;
+  width: 318px;
+  height: 40px;
+  position: absolute;
+  background-color: rgb(255, 217, 4);
+  font-size: large;
+}
+
+#output {
+  position: absolute;
+  top: 210px;
+  left: 20%;
+  font-size: x-large;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 230px;
+    height: 230px;
+    top: 20px;
+  }
+
+  #number {
+    width: 150px;
+    height: 30px;
+    left: 20%;
+    top: 130px;
+  }
+
+  #convert-btn {
+    width: 150px;
+    height: 40px;
+    top: 180px;
+    left: 20%;
+  }
+
+  #output {
+    top: 210px;
+    left: 16%;
+    font-size: large;
+  }
+}
+
+@media (max-width: 200px) {
+  .container {
+    width: 130px;
+    height: 300px;
+  }
+
+  #number {
+    width: 90px;
+    height: 40px;
+  }
+
+  #convert-btn {
+    width: 90px;
+    height: 40px;
+  }
+}
