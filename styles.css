@@ -79,7 +79,7 @@ html {
   }
 }
 
-@media (max-width: 200px) {
+@media ( max-width: 200px ) {
   .container {
     width:130px;
     height:300px;
@@ -94,4 +94,3 @@ html {
     height:40px;
   }
 }
- 
