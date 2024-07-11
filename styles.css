@@ -68,3 +68,36 @@ html {
   font-size: x-large;
   font-weight: 100;
 }
+
+@media (max-width: 400px) {
+  .container {
+    width: 300px;
+    height: 300px;
+  }
+
+  #number {
+    width: 250px;
+    height: 20px;
+  }
+  #convert-btn {
+    width: 250px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 200px) {
+  .container {
+    width: 200px;
+    height: 300px;
+  }
+
+  #number {
+    width: 180px;
+    height: 20px;
+  }
+  #convert-btn {
+    width: 180px;
+    height: 40px;
+  }
+}
+ 
